@@ -3,6 +3,8 @@ import {
   backend,
   creator,
   web,
+  netframework,
+  database,
   javascript,
   typescript,
   html,
@@ -23,6 +25,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  unity,
+  blender,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +46,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: ".NET Backend Development",
+    icon: netframework,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Oracle Database & Automation",
+    icon: database,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "C# / Unity Game Development",
+    icon: unity,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "3D & Interactive Applications",
+    icon: blender,
   },
 ];
 
