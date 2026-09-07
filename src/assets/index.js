@@ -3,6 +3,10 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import database from "./database.png";
+import netframework from "./netframework.png";
+import blender from "./blender.png";
+import unity from "./unity.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  database,
+  netframework,
+  unity,
+  blender,
 };
