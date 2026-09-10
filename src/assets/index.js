@@ -4,15 +4,13 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import database from "./database.png";
-import netframework from "./netframework.png";
-import blender from "./blender.png";
-import unity from "./unity.png";
+import netframework from "./tech/net.png";
+import blender from "./tech/blender.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -23,16 +21,33 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import csharp from "./tech/csharp.png";
+import dotnet from "./tech/net.png";
+import aspnet from "./tech/asp.png";
+import efcore from "./tech/efcore.png";
+import restapi from "./tech/restapi.png";
+import oracle from "./tech/oracle.png";
+import sql from "./tech/sql.png";
+import linux from "./tech/linux.png";
+import ansible from "./tech/ansible.png";
+import docker from "./tech/docker.png";
+import unity from "./tech/unity.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import itdz from "./company/itdz.png"
+import htw from "./company/htw.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import gamestore from "./gamestore.png"
+import inventory from "./inventory.png"
+import admin from "./admin.png"
 
 export {
   logo,
@@ -44,7 +59,6 @@ export {
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -65,6 +79,21 @@ export {
   tripguide,
   database,
   netframework,
-  unity,
   blender,
+  htw,
+  itdz,
+  csharp,
+  dotnet,
+  aspnet,
+  efcore,
+  restapi,
+  oracle,
+  sql,
+  linux,
+  ansible,
+  docker,
+  unity,
+  gamestore,
+  inventory,
+  admin,
 };

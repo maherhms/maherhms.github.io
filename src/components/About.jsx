@@ -34,24 +34,31 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Wer ich bin</p>
+        <h2 className={styles.sectionHeadText}>Über mich.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a Computer Engineer focused on building backend applications with C# and .NET.
-        I develop RESTful APIs and web applications using ASP.NET Core and Entity Framework Core,
-        with a focus on clean, maintainable architecture.
+        Ich bin Computer Engineer mit Schwerpunkt auf der Entwicklung von 
+        Backend-Anwendungen mit C# und .NET. Dabei entwickle ich RESTful APIs 
+        und Webanwendungen mit ASP.NET Core und Entity Framework Core und lege 
+        besonderen Wert auf eine saubere, wartbare und gut strukturierte Architektur.
         <br/>
-        Professionally, I work with Oracle databases and Linux-based systems, specializing in
-        database administration and automation. This experience gives me a strong foundation
-        in data, backend systems, and enterprise IT.
         <br/>
-        Outside of work, I build games with Unity and C#, create 3D environments with Blender,
-        and document my projects through content creation.
+        Beruflich arbeite ich mit Oracle-Datenbanken und Linux-basierten 
+        Systemen und beschäftige mich insbesondere mit Datenbankadministration 
+        und der Automatisierung von Datenbankprozessen. Dadurch verfüge ich über eine 
+        solide Grundlage in den Bereichen Datenbanken, Backend-Systeme und Enterprise-IT.
+        <br/>
+        <br/>
+
+        Neben meiner beruflichen Tätigkeit entwickle ich Spiele mit Unity und C#, 
+        erstelle 3D-Umgebungen mit Blender und dokumentiere meine Projekte 
+        durch Content Creation.
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

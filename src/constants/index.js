@@ -21,12 +21,26 @@ import {
   starbucks,
   tesla,
   shopify,
+  itdz,
+  htw,
   carrent,
   jobit,
   tripguide,
   threejs,
   unity,
   blender,
+  csharp,
+  dotnet,
+  aspnet,
+  efcore,
+  restapi,
+  oracle,
+  sql,
+  linux,
+  ansible,
+  gamestore,
+  inventory,
+  admin,
 } from "../assets";
 
 export const navLinks = [
@@ -65,110 +79,124 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "C#",
+    icon: csharp,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: ".NET",
+    icon: dotnet, 
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "ASP.NET Core",
+    icon: aspnet,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Entity Framework Core",
+    icon: efcore,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "REST APIs",
+    icon: restapi,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Oracle",
+    icon: oracle,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "SQL",
+    icon: sql,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Linux",
+    icon: linux,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Ansible",
+    icon: ansible,
   },
   {
-    name: "Three JS",
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Unity",
+    icon: unity,
+  },
+  {
+    name: "Three.js",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Blender",
+    icon: blender,
+  },
+  {
+    name: "JavaScript",
+    icon: typescript,
+  },
+  {
+    name: "React",
+    icon: reactjs,
+  },
+  {
+    name: "Git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Oracle-Spezialist",
+    company_name: "ITDZ Berlin (IT-Dienstleistungszentrum Berlin)",
+    icon: itdz,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Apr. 2025 – Heute",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Automatisierung der Bereitstellung und Installation von Oracle-Datenbanken unter RHEL 8/9 mittels Ansible.",
+      "Entwicklung und Pflege von Ansible-Playbooks für Installation, Konfiguration und Patch-Management.",
+      "Sicherstellung konsistenter, reproduzierbarer und auditierbarer Datenbank-Deployments.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "QA-Tester",
+    company_name: "ITDZ Berlin (IT-Dienstleistungszentrum Berlin)",
+    icon: itdz,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Okt. 2024 – März 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Durchführung von Qualitätssicherungstests für IT-Systeme und Anwendungen.",
+      "Planung, Durchführung und Dokumentation von Tests.",
+      "Identifikation und Dokumentation von Fehlern und Abweichungen.",
+    ],
+  },
+  {
+    title: "AR/VR Unity Developer – Inspirer",
+    company_name: "Hochschule für Technik und Wirtschaft Berlin",
+    icon: htw,
+    iconBg: "#383E56",
+    date: "Jan. 2022 – Aug. 2024",
+    points: [
+      "Erarbeitung wissenschaftlicher Grundlagen im Bereich Augmented Reality zur Partizipation im Stadtraum.",
+      "Konzeption und Entwicklung von digitalen und nicht-digitalen Prototypen.",
+      "Betreuung und Evaluation von User-Tests.",
+      "Entwicklung von Augmented-Reality-Funktionen und Benutzeroberflächen für mobile Endgeräte.",
+      "Entwicklung mit der Unity Engine sowie Programmierung von AR-Funktionen und Datenbankschnittstellen in C#.",
+      "Integration von Frameworks und Plugins.",
+      "Erstellung und Optimierung von 3D-Objekten für Augmented- und Virtual-Reality-Anwendungen.",
+    ],
+  },
+  {
+    title: "React Web Application Developer – SparePartAssist & RecoStation",
+    company_name: "Hochschule für Technik und Wirtschaft Berlin",
+    icon: htw,
+    iconBg: "#E6DEDD",
+    date: "Okt. 2021 – Juli 2022",
+    points: [
+      "Entwicklung von Deep-Learning-Verfahren für die 3D-Ähnlichkeitssuche.",
+      "Entwicklung synthetischer Datensätze und Aufbereitung realer Datensätze.",
+      "Testen und Evaluieren der entwickelten Algorithmen.",
+      "Entwicklung von Three.js-Algorithmen.",
+      "Entwurf von Mockups und Entwicklung einer plattformübergreifenden WebView-App für iOS und Android.",
     ],
   },
 ];
@@ -200,70 +228,120 @@ const testimonials = [
   },
 ];
 
+
 const projects = [
   {
-    name: "Car Rent",
+    name: "GameStore",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Moderne REST-API auf Basis von ASP.NET Core und .NET 10 mit Minimal APIs. Das Projekt zeigt saubere Backend-Entwicklung, API-Design, Datenpersistenz und eine wartbare Anwendungsstruktur.",
     tags: [
       {
-        name: "react",
+        name: "csharp",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "aspnetcore",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "efcore",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gamestore,
+    source_code_link: "https://github.com/maherhms/GameStore",
   },
+
   {
-    name: "Job IT",
+    name: "Inventory Control System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
+      "Anwendung zur Verwaltung von Inventar und Beständen, entwickelt mit ASP.NET Core MVC, Entity Framework Core und SQL Server. Der Fokus liegt auf einer sauberen und wartbaren Anwendungsarchitektur.",
+      tags: [
       {
-        name: "react",
+        name: "csharp",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "aspnetcore",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "sqlserver",
         color: "pink-text-gradient",
       },
+      {
+        name: "Blazor",
+        color: "white-text-gradient",
+      },
+      {
+        name: ".net-mvc",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: inventory,
+    source_code_link:
+      "https://github.com/maherhms/InventoryControlSystem_MVC",
   },
+
   {
-    name: "Trip Guide",
+    name: "Admin Dashboard",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
+      "Full-Stack-Administrationsplattform mit rollenbasierten Benutzeroberflächen, Analytics, Authentifizierung und Cloud-Diensten. Entwickelt mit modernen TypeScript- und React-Technologien.",
+      tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: admin,
+    source_code_link:
+      "https://github.com/maherhms/Admin-Dashboard-Frontend",
+  },
+  {
+    name: "AshenDepths",
+    description:
+      "RPG-Projekt, entwickelt mit Unity und C#. Inspiriert von modernen Souls-Like und mit Fokus auf Gameplay-Systeme, Combat, interaktive Mechaniken und 3D-Umgebungen.",
+    tags: [
+      { name: "csharp", color: "blue-text-gradient" },
+      { name: "unity", color: "green-text-gradient" },
+      { name: "Terrain-generation", color: "white-text-gradient" },
+      { name: "Blender", color: "pink-text-gradient" },
+    ],
+    image: jobit,
+    source_code_link: "https://www.youtube.com/watch?v=HbkaW4KNsCA",
+  },
+  {
+    name: "Shattered Realms",
+    description:
+      "Action-RPG entwickelt mit Unity und C#. Das Projekt verbindet Gameplay-Programmierung, interaktive Systeme und 3D-Umgebungen, die mit Blender erstellt wurden.",
+      tags: [
+      {
+        name: "csharp",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "unity",
+        color: "green-text-gradient",
+      },
+      {
+        name: "blender",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link:
+      "https://github.com/maherhms/Shattered-Realms",
   },
 ];
+
+
 
 export { services, technologies, experiences, testimonials, projects };
