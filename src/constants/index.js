@@ -61,7 +61,7 @@ export const navLinks = [
 const services = [
   {
     title: ".NET Backend Development",
-    icon: netframework,
+    icon: dotnet,
   },
   {
     title: "Oracle Database & Automation",
