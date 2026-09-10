@@ -20,18 +20,18 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.png";
+import threejs from "./tech/Threejs.png";
 import csharp from "./tech/csharp.png";
 import dotnet from "./tech/NET.png";
 import aspnet from "./tech/asp.png";
 import efcore from "./tech/efcore.png";
 import restapi from "./tech/restapi.png";
-import oracle from "./tech/oracle.png";
+import oracle from "./tech/Oracle.png";
 import sql from "./tech/sql.png";
-import linux from "./tech/linux.png";
-import ansible from "./tech/ansible.png";
+import linux from "./tech/Linux.png";
+import ansible from "./tech/Ansible.png";
 import docker from "./tech/docker.png";
-import unity from "./tech/unity.png";
+import unity from "./tech/Unity.png";
 
 
 import meta from "./company/meta.png";

@@ -3,7 +3,6 @@ import {
   backend,
   creator,
   web,
-  netframework,
   database,
   javascript,
   typescript,
