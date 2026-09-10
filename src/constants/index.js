@@ -40,6 +40,8 @@ import {
   gamestore,
   inventory,
   admin,
+  ashendepths,
+  shatteredrealms,
 } from "../assets";
 
 export const navLinks = [
@@ -314,7 +316,7 @@ const projects = [
       { name: "Terrain-generation", color: "white-text-gradient" },
       { name: "Blender", color: "pink-text-gradient" },
     ],
-    image: jobit,
+    image: ashendepths,
     source_code_link: "https://www.youtube.com/watch?v=HbkaW4KNsCA",
   },
   {
@@ -335,7 +337,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: shatteredrealms,
     source_code_link:
       "https://github.com/maherhms/Shattered-Realms",
   },

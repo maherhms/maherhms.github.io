@@ -38,15 +38,18 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import itdz from "./company/itdz.png"
-import htw from "./company/htw.png"
+import itdz from "./company/itdz.png";
+import htw from "./company/htw.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import gamestore from "./gamestore.png"
-import inventory from "./inventory.png"
-import admin from "./admin.png"
+import gamestore from "./gamestore.png";
+import inventory from "./inventory.png";
+import admin from "./admin.png";
+import shatteredrealms from "./shatteredrealms.png";
+import ashendepths from "./ashendepths.png";
+
 
 export {
   logo,
@@ -94,4 +97,6 @@ export {
   gamestore,
   inventory,
   admin,
+  ashendepths,
+  shatteredrealms,
 };
