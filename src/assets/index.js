@@ -4,7 +4,6 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import database from "./database.png";
-import netframework from "./tech/net.png";
 import blender from "./tech/blender.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -23,7 +22,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.png";
 import csharp from "./tech/csharp.png";
-import dotnet from "./tech/net.png";
+import dotnet from "./tech/NET.png";
 import aspnet from "./tech/asp.png";
 import efcore from "./tech/efcore.png";
 import restapi from "./tech/restapi.png";
@@ -78,7 +77,6 @@ export {
   jobit,
   tripguide,
   database,
-  netframework,
   blender,
   htw,
   itdz,
